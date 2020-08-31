@@ -1,11 +1,12 @@
-import React from 'react';
-import './styles/styles.sass';
+import React, { Fragment } from 'react';
+import './styles/styles.scss';
+import { Home } from './pages/Home.js';
 
 const App = () => {
 	return (
-		<div>
-			<h1>Hello</h1>
-		</div>
+		<Fragment>
+			<Home />
+		</Fragment>
 	);
 };
 

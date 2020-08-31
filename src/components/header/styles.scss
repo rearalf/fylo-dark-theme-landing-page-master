@@ -1,0 +1,51 @@
+@import "../../styles/variables.scss";
+
+.head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 85%;
+}
+
+.bg_bottom {
+	position: absolute;
+	width: 100%;
+	/* height: 55%; */
+	z-index: -1;
+}
+
+.illustration {
+	max-width: 100%;
+	margin-bottom: 1rem;
+}
+
+.head_content {
+	text-align: center;
+}
+
+.head .text {
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.bg_bottom {
+		bottom: 190px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.head {
+		width: 50%;
+		padding-bottom: 10rem;
+	}
+
+	.illustration {
+		width: 85%;
+	}
+
+	.bg_bottom {
+		bottom: 0;
+		height: 35%;
+	}
+}

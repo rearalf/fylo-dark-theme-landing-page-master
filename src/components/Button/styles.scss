@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.btn_started:active,
+.btn_started:focus,
+.btn_started {
+	outline: none;
+	border: none;
+	color: $White;
+    font-family: $font-family-Headings;
+    font-weight: 700;
+    border-radius: 5rem;
+    font-size: 1.4em;
+	padding: 1.3rem 5rem;
+	background-image: linear-gradient(90deg, $Cyan-inside-call-to-action-gradient, $Blue-inside-call-to-action-gradient);
+}

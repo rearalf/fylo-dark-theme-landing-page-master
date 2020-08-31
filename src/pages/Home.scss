@@ -1,0 +1,13 @@
+@import '../styles/variables.scss';
+
+.header {
+	background-color: $Dark-Blue-intro-and-email-sign-up-background;
+	position: relative;
+	z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.header {
+		background: linear-gradient(1800deg, #181f2a 31%, $Dark-Blue-intro-and-email-sign-up-background 31%);
+	}
+}

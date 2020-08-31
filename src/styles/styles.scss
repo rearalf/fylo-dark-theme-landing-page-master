@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+body {
+	font-size: 14px;
+	color: $White;
+	font-family: $font-family-Body;
+	background-color: $Dark-Blue-main-background;
+}
+
+*:before,
+*after,
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+.title {
+	font-family: $font-family-Headings;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin-bottom: 1rem;
+}
+
+.text {
+	font-size: 1.05em;
+}
+
+@media screen and (min-width: 1024px) {
+	.title {
+		font-size: 2.5em;
+	}
+
+	.text {
+		font-size: 1.14em;
+		margin: 0 auto;
+		width: 70%;
+	}
+}

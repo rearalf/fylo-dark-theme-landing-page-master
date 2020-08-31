@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+	font-family: $font-family-Headings;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 2rem 0;
+	width: 85%;
+}
+
+.brand img {
+	width: 100px;
+}
+
+.navbar_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: .8;
+}
+
+.nav_item {
+	cursor: pointer;
+}
+
+.nav_item:first-child {
+	margin-right: 1rem;
+}
+
+.nav_item:last-child {
+	margin-left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.navbar {
+		padding: 4rem 0;
+	}
+
+	.brand img {
+		width: 150px;
+	}
+
+	.nav_link {
+		font-size: 1.5em;
+	}
+}
