@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.head {
+		margin-bottom: 8rem;
+	}
+
 	.bg_bottom {
 		bottom: 190px;
 	}
@@ -47,5 +51,10 @@
 	.bg_bottom {
 		bottom: 0;
 		height: 35%;
+	}
+
+	.head .text {
+		margin: 0 auto 2rem;
+		width: 70%;
 	}
 }
