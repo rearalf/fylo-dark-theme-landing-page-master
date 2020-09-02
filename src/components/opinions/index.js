@@ -3,6 +3,7 @@ import './styles.scss';
 import Profile1 from '../../images/profile-1.jpg';
 import Profile2 from '../../images/profile-2.jpg';
 import Profile3 from '../../images/profile-3.jpg';
+import BgQuotes from '../../images/bg-quotes.png';
 
 export const Opinions = () => {
 	const opinions = [
@@ -46,5 +47,10 @@ export const Opinions = () => {
 		});
 	};
 
-	return <div className="section_opinions">{article_opinion()}</div>;
+	return (
+		<div className="section_opinions">
+			<img src={BgQuotes} alt="Bg Quotes" className="bg_quotes" />
+			{article_opinion()}
+		</div>
+	);
 };

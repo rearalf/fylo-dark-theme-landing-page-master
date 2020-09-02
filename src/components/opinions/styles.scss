@@ -3,6 +3,15 @@
 .section_opinions {
 	margin: 0 auto 5rem;
 	width: 85%;
+	position: relative;
+}
+
+.bg_quotes {
+	position: absolute;
+	top: -23px;
+	left: 10px;
+	z-index: -1;
+	width: 10%;
 }
 
 .article_opinion {
@@ -11,6 +20,7 @@
 	border-radius: 8px;
 	padding: 30px 20px;
 	box-shadow: 0 0 10px $Dark-Blue-testimonials-background;
+	z-index: 1;
 }
 
 .article_opinion .text {
@@ -44,6 +54,12 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 50px;
+	}
+
+	.bg_quotes {
+		top: -36px;
+		left: -12px;
+		width: auto;
 	}
 
 	.article_opinion .text {
