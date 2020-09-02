@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .section_productive {
-	margin: 0 auto 2rem;
+	margin: 0 auto 10rem;
 	width: 85%;
 	display: flex;
 	flex-direction: column;
@@ -27,10 +27,8 @@
 .link {
 	color: $Cyan-inside-call-to-action-gradient;
 	font-size: 1.1em;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
-	position: relative;
-	width: 51%;
 	padding-bottom: 5px;
 	border-bottom: 2px solid;
 }
@@ -61,9 +59,5 @@
 	.contet_section .text {
 		font-size: 1.2em;
 		margin-bottom: 1rem;
-	}
-
-	.link {
-		width: 30%;
 	}
 }
