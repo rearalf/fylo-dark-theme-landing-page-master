@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+
+.access_cover {
+	background: linear-gradient(180deg, $Dark-Blue-main-background 45%, $Dark-Blue-footer-background 45%);
+}
+
+.access_section {
+	background-color: $Dark-Blue-intro-and-email-sign-up-background;
+	margin: 0 auto 0;
+	width: 85%;
+	border-radius: 8px;
+	padding: 35px 30px 25px;
+	text-align: center;
+	box-shadow: 0 0 5px hsla(0, 0%, 0%, .5);
+}
+
+.access_section .title {
+	font-size: 1.1em;
+}
+
+.access_section .text {
+	font-size: 13px;
+	margin-bottom: 1.5rem;
+}
+
+.access_section .btn_started {
+	padding: 1rem 2rem;
+	width: 100%;
+	font-size: 12px;
+}
+
+.input_email:focus,
+.input_email:active,
+.input_email {
+	outline: none;
+	border: none;
+	width: 100%;
+	border-radius: 2rem;
+	padding: 15px 25px 12px 25px;
+	color: hsla(0, 0%, 0%, 0.534);
+	font-size: .8em;
+	margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.access_section {
+		width: 60%;
+		padding: 40px 80px;
+	}
+
+	.access_section .title {
+		font-size: 2em;
+	}
+
+	.access_section .text {
+		font-size: 15px;
+	}
+
+	.form_started {
+		display: grid;
+		grid-template-columns: 420px 1fr;
+	}
+
+	.input_email:focus,
+	.input_email:active,
+	.input_email {
+		margin-bottom: 0;
+		margin-right: 2rem;
+	}
+
+	.access_section .btn_started {
+		width: auto;
+		justify-self: end;
+		font-size: 14px;
+	}
+}

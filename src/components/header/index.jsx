@@ -18,7 +18,7 @@ export const Header = () => {
 						Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with
 						friends family, and co-workers.
 					</p>
-					<Button />
+					<Button title="Get Started" />
 				</div>
 			</div>
 			<img src={renderBg} alt="Bg" className="bg_bottom" />

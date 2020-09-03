@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.footer {
+	background-color: $Dark-Blue-footer-background;
+	padding: 5rem 2rem 0;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 35px;
+}
+
+.lists {
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 35px;
+}
+
+.list_footer:first-child .list {
+	display: flex;
+	align-items: flex-start;
+}
+
+.list img {
+	margin-right: 1rem;
+}
+
+.list {
+	margin-bottom: 1rem;
+}
+
+.list .text{
+	font-size: 1.14em;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

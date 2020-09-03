@@ -5,6 +5,8 @@ import { Header } from '../components/Header/index.jsx';
 import { Services } from '../components/Services/index';
 import { Productive } from '../components/Productive/index.jsx';
 import { Opinions } from '../components/opinions/index';
+import { Access } from '../components/access';
+import { Footer } from '../components/footer';
 
 export const Home = () => {
 	return (
@@ -16,6 +18,8 @@ export const Home = () => {
 			<Services />
 			<Productive />
 			<Opinions />
+			<Access />
+			<Footer />
 		</Fragment>
 	);
 };

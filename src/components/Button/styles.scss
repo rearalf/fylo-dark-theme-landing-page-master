@@ -13,3 +13,7 @@
 	padding: 1.3rem 5rem;
 	background-image: linear-gradient(90deg, $Cyan-inside-call-to-action-gradient, $Blue-inside-call-to-action-gradient);
 }
+
+.btn_started:hover {
+	opacity: .8;
+}
