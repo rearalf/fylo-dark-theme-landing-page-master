@@ -43,6 +43,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+	.access_cover {
+		background: linear-gradient(180deg, $Dark-Blue-main-background 60%, $Dark-Blue-footer-background 60%);
+	}
+
 	.access_section {
 		width: 60%;
 		padding: 40px 80px;
@@ -54,11 +58,49 @@
 
 	.access_section .text {
 		font-size: 15px;
+		margin-bottom: 2rem;
+	}
+
+	.form_started {
+		display: flex;
+	}
+
+	.input_email:focus,
+	.input_email:active,
+	.input_email {
+		margin-bottom: 0;
+		margin-right: 2rem;
+	}
+
+	.access_section .btn_started {
+		width: auto;
+		justify-self: end;
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.access_cover {
+		background: linear-gradient(180deg, $Dark-Blue-main-background 60%, $Dark-Blue-footer-background 60%);
+	}
+
+	.access_section {
+		width: 60%;
+		padding: 40px 80px;
+	}
+
+	.access_section .title {
+		font-size: 2em;
+	}
+
+	.access_section .text {
+		font-size: 15px;
+		margin-bottom: 2rem;
 	}
 
 	.form_started {
 		display: grid;
-		grid-template-columns: 420px 1fr;
+		grid-template-columns: 480px 1fr;
 	}
 
 	.input_email:focus,

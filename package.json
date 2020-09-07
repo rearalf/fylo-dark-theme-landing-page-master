@@ -20,7 +20,8 @@
 	"homepage": "https://github.com/rearalf/fylo-dark-theme-landing-page-master#readme",
 	"dependencies": {
 		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"react-dom": "^16.13.1",
+		"react-icons": "^3.11.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.11.4",
