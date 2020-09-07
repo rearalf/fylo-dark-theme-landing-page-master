@@ -12,7 +12,7 @@ export const Access = () => {
 				be happy to help you.
 			</p>
 			<form className="form_started">
-				<input type="email" className="input_email" placeholder="email@example.com" />
+				<input type="email" className="input_email" placeholder="email@example.com" name="email" />
 				<Button title='Get Started For Free' />
 			</form>
 		</section>

@@ -7,7 +7,7 @@ import IconCollaboration from '../../images/icon-collaboration.svg';
 
 export const Services = () => {
 	return (
-		<section className="section_services">
+		<div className="section_services">
 			<article className="service_article">
 				<img src={IconAccessAnyWhere} alt="Icon Access AnyWhere" className="service_img" />
 				<h3 className="title">Access your files, anywhere</h3>
@@ -38,6 +38,6 @@ export const Services = () => {
 					and shared.
 				</p>
 			</article>
-		</section>
+		</div>
 	);
 };

@@ -37,10 +37,10 @@ export const Opinions = () => {
 					<p className="text">{opinion.opinion}</p>
 					<div className="profile_article">
 						<img src={opinion.photo} className="profile" alt={opinion.name} />
-						<hgroup className="author">
+						<div className="author">
 							<h6 className="title">{opinion.name}</h6>
 							<sub>{opinion.position}</sub>
-						</hgroup>
+						</div>
 					</div>
 				</article>
 			);

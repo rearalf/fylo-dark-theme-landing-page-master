@@ -70,17 +70,17 @@ export const Footer = () => {
 				</ul>
 				<ul className="list_footer">
 					<li className="list">
-						<a href="https://twitter.com/ricardoalfar" target="_blank">
+						<a href="https://twitter.com/ricardoalfar" target="_blank" aria-label="Facebook">
 							<FaFacebookF />
 						</a>
 					</li>
 					<li className="list">
-						<a href="https://twitter.com/ricardoalfar" target="_blank">
+						<a href="https://twitter.com/ricardoalfar" target="_blank" aria-label="Twitter">
 							<FaTwitter />
 						</a>
 					</li>
 					<li className="list">
-						<a href="https://twitter.com/ricardoalfar" target="_blank">
+						<a href="https://twitter.com/ricardoalfar" target="_blank" aria-label="Instagram">
 							<FaInstagram />
 						</a>
 					</li>
